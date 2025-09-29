@@ -78,6 +78,14 @@ O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a 
 
 ---
 
+## 🧾 Evidências de Funcionamento  
+
+As evidências das consultas e atualizações realizadas estão disponíveis no arquivo:  
+
+- [`query_outputs.md`](query_outputs.md) – contém os resultados (logs) das consultas e atualizações executadas no MySQL.  
+
+---
+
 ## 👥 Equipe – Grupo 8
 
 * Ana Beatriz Alves
