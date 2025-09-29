@@ -1,8 +1,7 @@
 # 📊 Evidências de Funcionamento – Consultas SQL  
 
-As consultas foram executadas no **MySQL Workbench** sobre o banco `transporte_privado`.  
-A seguir estão os resultados principais obtidos (saídas completas).  
-
+As consultas foram executadas no MySQL Workbench sobre o banco transporte_privado.
+A seguir estão os resultados principais obtidos (amostras).
 ---
 
 ## 🔹 Q1 – Viagens com motorista e veículo  
@@ -46,12 +45,6 @@ ORDER BY total_pago DESC, p.Nome;
 | 4             | Juliana Rocha    | 52.00      |
 | 2             | Fernanda Costa   | 44.90      |
 | 3             | Rafael Lima      | 41.00      |
-| 6             | Aline de Souza   | 38.70      |
-| 9             | Carolina Pacheco | 33.40      |
-| 1             | Lucas Martins    | 32.50      |
-| 10            | Fábio Teixeira   | 28.60      |
-| 7             | Henrique Prado   | 27.80      |
-| 5             | Gabriel Alves    | 21.50      |
 
 ---
 
