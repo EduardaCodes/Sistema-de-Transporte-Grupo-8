@@ -1,5 +1,5 @@
-# query_outputs_v2.md
-Este arquivo guarda *amostras* de saída para checagem rápida durante a apresentação.
+# query_outputs.md
+Este arquivo guarda *amostras* de saída.
 
 ## Q1) Viagens com motorista e veículo (trecho)
 | ID_Viagem | data       | Status_viagem | motorista         | modelo       | placa   |
