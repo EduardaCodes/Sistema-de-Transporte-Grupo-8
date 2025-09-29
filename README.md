@@ -1,33 +1,30 @@
 # 🚖 Projeto Banco de Dados – Transporte Privado  
 
 ## 📌 Descrição  
-Este projeto foi desenvolvido na disciplina de **Banco de Dados** e tem como objetivo a criação de um sistema de **Transporte Privado**, contemplando todas as etapas de modelagem:  
+Este projeto foi desenvolvido na disciplina de **Laboratório de Banco de Dados** e tem como objetivo a criação de um sistema de **Transporte Privado**, contemplando todas as etapas de modelagem:  
 - **Modelagem Conceitual (DER)**  
 - **Modelagem Lógica**  
 - **Modelagem Física**  
 - **Implementação em MySQL**  
 
-O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a implementação do banco de dados com scripts de criação, inserção de dados, consultas e evidências de funcionamento.  
+O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a implementação completa do banco de dados, com scripts de criação, inserção de dados, consultas e evidências de funcionamento.  
 
 ---
-
+````
 ## 📂 Estrutura do Repositório  
-
-```
 
 .
 ├── DiagramaLogico.png                  # Diagrama lógico (tabelas e relacionamentos)
+├── DiagramaFisico.png                  # Diagrama físico exportado do Workbench
 ├── modelagem_logica.md                 # Documento explicativo da modelagem lógica
 ├── modelo lógico-forma textual.pdf     # Modelo lógico em formato textual
-├── DiagramaFisico.png                  # Diagrama físico exportado do Workbench
 ├── ModeloFisico.md                     # Documento explicativo da modelagem física
-├── transporte_privado.sql              # Script principal de criação das tabelas
-├── insert_data.sql                     # Script de inserção de dados (população)
-├── queries.sql                         # Consultas SQL (SELECTs de teste)
-├── update_examples.sql                 # Exemplos de atualização (UPDATEs)
+├── TransportePrivado.sql               # Script principal (criação das tabelas, inserts, consultas e updates)
+├── insert_data.sql                     # Script de inserção de dados (opcional, separado)
+├── queries.sql                         # Consultas SQL (opcional, separado)
+├── update_examples.sql                 # Exemplos de atualização (opcional, separado)
 ├── query_outputs.md                    # Evidências dos resultados das consultas
 └── Grupo 8 - Modelagem e Implementação de Banco de Dados.pdf  # Documento final consolidado
-
 ````
 
 ---
@@ -46,43 +43,26 @@ O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a 
    ```sql
    CREATE DATABASE transporte_privado;
    USE transporte_privado;
-    ```
 
-2. Executar o script de criação das tabelas:
-
-   ```sql
-   SOURCE transporte_privado.sql;
-   ```
-
-3. Inserir os dados de exemplo:
+2. Executar o script principal (tabelas, inserts, consultas e updates):
 
    ```sql
-   SOURCE insert_data.sql;
+   SOURCE TransportePrivado.sql;
    ```
 
-4. Executar consultas de teste:
+   > Obs.: Também é possível executar os scripts em separado (`insert_data.sql`, `queries.sql`, `update_examples.sql`) se preferir.
 
-   ```sql
-   SOURCE queries.sql;
-   ```
+3. Conferir os resultados:
 
-5. Rodar exemplos de atualização:
-
-   ```sql
-   SOURCE update_examples.sql;
-   ```
-
-6. Conferir os resultados:
-
-   * Arquivo `query_outputs.md` contém as principais evidências.
+   * O arquivo `query_outputs.md` contém amostras dos resultados das principais consultas.
 
 ---
 
-## 🧾 Evidências de Funcionamento  
+## 🧾 Evidências de Funcionamento
 
-As evidências das consultas e atualizações realizadas estão disponíveis no arquivo:  
+As evidências das consultas e atualizações realizadas estão disponíveis no arquivo:
 
-- [`query_outputs.md`](query_outputs.md) – contém os resultados (logs) das consultas e atualizações executadas no MySQL.  
+* [`query_outputs.md`](query_outputs.md) – contém os resultados obtidos no MySQL a partir dos dados de exemplo.
 
 ---
 
@@ -99,5 +79,7 @@ As evidências das consultas e atualizações realizadas estão disponíveis no 
 ## 📑 Entregáveis
 
 * Documento final em PDF contendo os três diagramas, explicações e link para este repositório.
-* Scripts SQL organizados em um único repositório.
+* Scripts SQL organizados e documentados.
 * Evidências de execução das consultas.
+
+---
