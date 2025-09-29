@@ -25,12 +25,6 @@ ORDER BY v.Data_viagem, v.ID_Viagem;
 | 3         | 2025-09-02  | 18:05:00   | 18:50:00     | Concluída     | JXY9877 | HB20S       | Guilherme Andrade|
 | 4         | 2025-09-03  | 06:40:00   | 07:20:00     | Concluída     | BCA1H55 | Civic EX    | Ana Beatriz Alves|
 | 5         | 2025-09-03  | 12:15:00   | 12:55:00     | Em andamento | TUESM90 | Toro        | Icaro de Oliveira|
-| 6         | 2025-09-04  | 16:00:00   | 16:50:00     | Concluída     | GDF3P21 | Duster      | Camila Barros    |
-| 7         | 2025-09-05  | 10:20:00   | 11:05:00     | Cancelada     | HZA7Q02 | Argo Trek   | Igor Mendonça    |
-| 8         | 2025-09-06  | 19:10:00   | 19:45:00     | Concluída     | KVM4L61 | Renegade    | Valéria Coutinho |
-| 9         | 2025-09-07  | 08:00:00   | 08:40:00     | Concluída     | NYB6C10 | Virtus      | Thiago Rezende   |
-| 10        | 2025-09-08  | 14:30:00   | 15:10:00     | Concluída     | QZR0E88 | Spin        | Priscila Andrade |
-
 ---
 
 ## 🔹 Q4 – Total pago por passageiro  
