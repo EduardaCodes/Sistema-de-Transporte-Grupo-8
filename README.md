@@ -10,9 +10,10 @@ Este projeto foi desenvolvido na disciplina de **Laboratório de Banco de Dados*
 O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a implementação completa do banco de dados, com scripts de criação, inserção de dados, consultas e evidências de funcionamento.  
 
 ---
-````
+
 ## 📂 Estrutura do Repositório  
 
+````
 .
 ├── DiagramaLogico.png                  # Diagrama lógico (tabelas e relacionamentos)
 ├── DiagramaFisico.png                  # Diagrama físico exportado do Workbench
@@ -20,12 +21,11 @@ O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a 
 ├── modelo lógico-forma textual.pdf     # Modelo lógico em formato textual
 ├── ModeloFisico.md                     # Documento explicativo da modelagem física
 ├── TransportePrivado.sql               # Script principal (criação das tabelas, inserts, consultas e updates)
-├── insert_data.sql                     # Script de inserção de dados (opcional, separado)
-├── queries.sql                         # Consultas SQL (opcional, separado)
-├── update_examples.sql                 # Exemplos de atualização (opcional, separado)
 ├── query_outputs.md                    # Evidências dos resultados das consultas
+├── README.md                           # Arquivo de descrição do projeto
 └── Grupo 8 - Modelagem e Implementação de Banco de Dados.pdf  # Documento final consolidado
 ````
+
 
 ---
 
@@ -43,6 +43,7 @@ O trabalho cobre desde o desenho inicial das entidades e relacionamentos até a 
    ```sql
    CREATE DATABASE transporte_privado;
    USE transporte_privado;
+
 
 2. Executar o script principal (tabelas, inserts, consultas e updates):
 
@@ -81,5 +82,3 @@ As evidências das consultas e atualizações realizadas estão disponíveis no 
 * Documento final em PDF contendo os três diagramas, explicações e link para este repositório.
 * Scripts SQL organizados e documentados.
 * Evidências de execução das consultas.
-
----
