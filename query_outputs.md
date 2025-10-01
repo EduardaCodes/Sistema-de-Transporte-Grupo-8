@@ -1,7 +1,9 @@
 # 📊 Evidências de Funcionamento – Consultas SQL  
 
-**As consultas foram executadas no MySQL Workbench sobre o banco transporte_privado.**
-  **A seguir estão os resultados principais obtidos (amostras).**
+As consultas foram executadas no MySQL Workbench sobre o banco transporte_privado.
+
+A seguir estão os resultados principais obtidos (amostras).
+
 ---
 
 ## 🔹 Q1 – Viagens com motorista e veículo  
